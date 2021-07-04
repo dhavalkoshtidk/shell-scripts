@@ -1,0 +1,8 @@
+#!/bin/bash
+# Author: Dhaval Koshti
+# Date create: 30.06.2021
+# Description: This script will output ""Hello world on the screen"
+# Date modified 30.06.2021
+echo
+echo hello world!
+echo

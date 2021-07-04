@@ -1,0 +1,13 @@
+#!/bin/bash
+# Author:  Dhaval Koshti
+# Date create: 01.07.2021
+# Description: This script will check, whether a file exists or not
+# Date modification: 01.07.2021
+
+clear
+	if [ -e /home/dhaval/error.txt ]
+	then
+		echo "File exists"
+	else
+		echo "File does not exists"
+	fi

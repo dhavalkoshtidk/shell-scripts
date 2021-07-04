@@ -1,0 +1,20 @@
+#!/bin/bash
+# Author: Dhaval Koshti
+# Date Create: 03.07.2021
+# Description: Thhis script will ping multiple remote hosts and notify
+# Date modification: 03.07.2021
+
+host="/home/dhaval/Schreibtisch/shell-script/ping-scripts/IPLIST"
+
+for ip in $(awk '{print}' $host)
+do
+
+	ping -c2 $ip &> /dev/null
+
+	if [ $? -eq 0 ]
+	then
+		echo "$ip is okay"
+	else
+		echo "$ip is not okay"
+	fi
+done

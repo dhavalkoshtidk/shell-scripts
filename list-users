@@ -1,0 +1,11 @@
+#!/bin/bash
+# Author: Dhaval Koshti
+# Date create: 01.07.2021
+# Description: This script will list all the users form /etc/passwd file
+# Date modification: 01.07.2021
+
+i=1
+for username in `awk -F: '{print $i}' /etc/passwd`
+do
+	echo "Username $((i++)) : $username"
+done

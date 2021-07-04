@@ -1,0 +1,21 @@
+#!/bin/bash
+# Author: Dhaval Koshti
+# Date create: 30.06.2021
+# Description: Run basic linux tasks
+# Date modified: 30.06.2021
+
+echo
+echo "This script will run some basic tasks"
+echo
+pwd
+echo
+ls
+echo
+whoami
+echo
+date
+echo
+cal
+echo
+touch a b c
+echo "This is the end of the script"

@@ -1,0 +1,13 @@
+#!/bin/bash
+# Author: Dhaval Koshti
+# Date create: 30.06.2021
+# Description: This script will show us the basics of input-output
+# Date modified: 30.06.2021
+
+a=`hostname`
+echo "Hello, my servername is $a"
+echo
+echo "What is your Name?"
+read namecont
+echo
+echo "Hello $namecont"

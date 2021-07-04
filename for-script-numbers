@@ -1,0 +1,10 @@
+#!/bin/bash
+# Author: Dhaval Koshti
+# Date create: 01.07.2021
+# Description: This script will show us the for loop
+# Date modification: 01.07.2021
+
+for i in 1 2 3 4 5
+do
+	echo "Welcome $i times"
+done

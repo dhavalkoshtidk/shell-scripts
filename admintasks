@@ -1,0 +1,20 @@
+#!/bin/bash
+# Author: Dhaval Koshti
+# Date create: 30.06.2021
+# Descrioption: This script will run some basic amin commands
+# Date: modified: 30.06.2021
+
+echo
+echo "This script will run basic admin commands"
+echo
+top | head -10
+echo
+df -h
+echo
+free -mh
+echo
+uptime
+echo
+iostat
+echo
+echo "End of script"

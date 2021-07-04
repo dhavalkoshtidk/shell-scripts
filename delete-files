@@ -1,0 +1,10 @@
+#!/bin/bash
+# Author: Dhaval Koshti
+# Date create: 01.07.2021
+# Description: This script will delete the 5 files
+# Date modification: 01.07.2021
+
+for i in {1..5}
+do
+	rm $i
+done

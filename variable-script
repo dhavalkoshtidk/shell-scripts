@@ -1,0 +1,20 @@
+#!/bin/bash
+# Author: Dhaval koshti
+# Date create: 30.06.2021
+# Description: This script will schow us to define variables
+# DAte modified: 30.06.2021
+
+# Define variables
+p=pwd
+l=ls
+wi=whoami
+d=date
+c='cal 2018'
+
+echo "Run variables tasks"
+echo
+$p
+$l
+$wi
+$d
+$c

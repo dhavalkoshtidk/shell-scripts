@@ -1,0 +1,15 @@
+#!/bin/bash
+# Author: Dhaval Koshti
+# Date Create: 03.07.2021
+# Description: Thhis script will ping a server
+# Date modification: 03.07.2021
+
+host="192.168.122.83"
+ping -c2 $host &> /dev/null
+
+	if [ $? -eq 0 ]
+	then
+		echo "$host is okay"
+	else
+		echo "$host is not okay"
+	fi

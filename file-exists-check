@@ -1,0 +1,14 @@
+#!/bin/bash
+# Author: Dhaval koshti
+# Date create: 01.07.2021
+# Description: check the status of a file if it exists
+# Date modification: 01.07.2021
+
+ls -l /home/dhaval/check
+
+	if [ $? -eq 0 ]
+	then
+		echo "File exists"
+	else
+		echo "File does not exists"
+	fi

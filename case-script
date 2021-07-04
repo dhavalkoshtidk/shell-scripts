@@ -1,0 +1,22 @@
+#!/bin/bash
+# Author: Dhaval Koshti
+# Date create: 01.07.2021
+# Description: This script will show us the case statements
+# Date modification: 01.07.2021
+
+echo
+echo "Please choose one of the options below"
+echo
+echo "a = Display date and time"
+echo "b = List file and directories"
+echo "c = List users logged in"
+echo "d = Check system uptime"
+echo
+	read choice
+	case $choice in
+a) date;;
+b) ls;;
+c) who;;
+d) uptime;;
+*) echo "Invalid choice - Bye."
+	esac

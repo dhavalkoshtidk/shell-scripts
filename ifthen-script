@@ -1,0 +1,13 @@
+#!/bin/bash
+# Author: Dhaval Koshti
+# Date create: 01.07.2021
+# Description: This script will schow us the if-else statement
+# Date modified: 01.07.2021
+
+count=100
+	if [ $count -eq 100  ]
+	then 
+		echo "Count is 100"
+	else
+		echo "Count is not 100"
+	fi
