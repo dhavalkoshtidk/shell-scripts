@@ -1,0 +1,7 @@
+#!/bin/bash
+# Author: Dhaval Koshti
+# Date create: 06.07.2021
+# Description: This script will delete the old files
+# Date modification: 06.07.2021
+
+find ./ -mtime +90 -exec ls -l {} \;
